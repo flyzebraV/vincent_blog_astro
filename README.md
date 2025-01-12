@@ -1,4 +1,4 @@
-# Astro Air
+# Astro Air2
 
 A minimalism, personal blog theme for Astro.
 
