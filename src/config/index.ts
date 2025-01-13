@@ -47,10 +47,10 @@ export const common = {
 
 export const zh = {
   ...common,
-  siteName: "小孙同学",
+  siteName: "飛馬體驗錄",
   meta: {
     ...common.meta,
-    title: "小孙同学",
+    title: "飛馬體驗錄",
     slogan: "一个浪漫的理性主义者",
     description: "读书、摄影、编程、旅行",
   },
@@ -66,17 +66,17 @@ export const zh = {
   pageMeta: {
     archive: {
       title: "归档",
-      description: "小孙同学的所有文章",
+      description: "",
       ogImage: "/images/page-meta/zh/archive.png",
     },
     links: {
       title: "朋友们",
-      description: "小孙同学的和他朋友们",
+      description: "",
       ogImage: "/images/page-meta/zh/links.png",
     },
     about: {
       title: "关于我",
-      description: "小孙同学的自我介绍",
+      description: "",
       ogImage: "/images/page-meta/zh/about.png",
     },
   },
