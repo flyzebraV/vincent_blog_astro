@@ -11,6 +11,7 @@ import robotsTxt from "astro-robots-txt"
 
 // https://astro.build/config
 export default defineConfig({
+  defaultLocale: "zh",
   output: "static",
   prefetch: true,
   site: "https://astro-air.netlify.app",
