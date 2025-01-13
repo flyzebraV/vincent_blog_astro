@@ -1,6 +1,4 @@
 ---
-import { Rss } from "lucide-react"
-import { LanguageToggle } from "~/components/react/language-toggle"
 import { ThemeToggle } from "~/components/react/theme-toggle"
 import { en, zh } from "~/config"
 import { getLangFromUrl } from "~/i18n/utils"
@@ -19,7 +17,7 @@ const config = lang === "zh" ? zh : en
   </a>
 
   <div class="flex items-center gap-6">
-    {
+    <!-- {
       config.rss && (
         <a
           href="/atom.xml"
@@ -31,8 +29,8 @@ const config = lang === "zh" ? zh : en
           <Rss />
         </a>
       )
-    }
-    {
+    } -->
+    <!-- {
       config.social.map((social) => (
         <a
           href={social.link}
@@ -45,9 +43,9 @@ const config = lang === "zh" ? zh : en
           <social.icon />
         </a>
       ))
-    }
+    } -->
 
-    <LanguageToggle client:load />
+    <!-- <LanguageToggle client:load /> -->
     <ThemeToggle client:load />
   </div>
 </header>
