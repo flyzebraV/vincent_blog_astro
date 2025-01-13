@@ -1,5 +1,5 @@
 ---
-title: 我的第二篇博客文章
+title: 我的第2篇博客文章
 author: Astro 学习者
 description: "在学习了一些 Astro 之后，我无法停止！"
 image:
