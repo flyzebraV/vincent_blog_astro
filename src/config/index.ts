@@ -47,11 +47,11 @@ export const common = {
 
 export const zh = {
   ...common,
-  siteName: "飛馬體驗錄",
+  siteName: "飛馬体验录",
   meta: {
     ...common.meta,
-    title: "飛馬體驗錄",
-    slogan: "一个浪漫的理性主义者",
+    title: "飛馬体验录",
+    slogan: "",
     description: "读书、摄影、编程、旅行",
   },
   navigation: {
